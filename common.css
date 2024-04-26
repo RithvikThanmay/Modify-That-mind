@@ -1,0 +1,238 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* nav bar styling */
+.nav1 ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav1 ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#email {
+    margin-left: 700px;
+}
+
+.nav1 {
+    padding: 8px;
+    /* background-color: rgb(28, 160, 28); */
+
+}
+
+/* navbar2 styling */
+.nav2 ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.nav2 ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 3px;
+    color: rgb(28, 160, 28);
+    font-size: large;
+
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    margin: 0px 3px;
+    padding: 0px;
+    color: rgb(28, 160, 28);
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    transition: all 10s, left 250ms ease-in-out, right 250ms ease-in-out;
+
+
+
+}
+
+.nav2 {
+    /* padding: 10px; */
+
+    padding-top: 15px;
+
+
+}
+
+.nav2 img {
+    height: 80px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.nav2 button {
+    background-color: orange;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#a {
+    margin-left: 100px;
+
+
+}
+
+.nav2 ul li a:hover {
+    text-decoration: underline;
+    transition: all 0.3s;
+    transform: scaleX(1);
+    /* border-bottom: solid 3px ;
+  transition: left 250ms ease-in-out, right 250ms ease-in-out; */
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* background-color: skyblue; */
+
+
+}
+
+.main-content img {
+    width: 500px;
+    height: 300px;
+    border-bottom-right-radius: 100px;
+
+
+}
+
+.main-content-item p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.main-content-item h1 {
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main-content-item button {
+    margin: 5px;
+    padding: 10px 50px;
+    margin-top: 40px;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    font-size: large;
+    background-color: rgb(28, 160, 28);
+    color: white;
+    cursor: pointer;
+
+}
+
+.main-content-item button:hover{
+    background-color: orange;
+}
+
+.main-content-item {
+    margin: 80px;
+}
+
+.container {
+    background-color: white;
+    margin: 0px 80px;
+    margin-bottom: 18px;
+}
+
+body {
+    background: url('https://www.modifythatmind.com/Images/header-bg.png');
+
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#img-a,
+#img-b,
+#img-c,
+#img-d {
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 100px;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content-item span {
+    color: orange;
+}
+
+.img{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px ;
+}
+/* extra */
+.container {
+    overflow: hidden;
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.slider-navigation button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.slider-navigation button:hover{
+    background-color: blue;
+}

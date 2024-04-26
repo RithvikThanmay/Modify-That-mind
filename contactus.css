@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #379437;;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.cross{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.item{
+    margin-right: 30px;
+    margin-left: 160px;
+}
+
+.sub-item{
+    padding: 5px;
+    margin: 5px;
+}
+
+.sub-item p, .sub-item h3{
+    margin: 3px;
+}
+
+.sub-item p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.sub-item1{
+    margin: 10px;
+    padding: 5px;
+    margin-left: 100px;
+    
+}
+.sub-item1 input,.sub-item1 textarea {
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    border:none;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.sub-item1 textarea{
+    background-color: white;
+    padding: 0px;
+    width:500px;
+    margin-left: 18px;
+
+}
+.items p, .items h3{
+    margin: 20px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+.items i{
+    position: relative;
+    left: 25px;
+    color: white;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.items button{
+    padding: 10px 60px;
+    border-radius: 20px;
+    background-color: orange;
+    margin-left: 130px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.items button:hover{
+    background-color: blue;
+}
+
+.sub-item i{
+    position: relative;
+    right:40px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    top:20px;
+    font-size: 20px;
+}
